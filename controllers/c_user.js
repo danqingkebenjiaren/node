@@ -1,3 +1,4 @@
-exports.showSigin=(req,res)=>{
-  res.send('123455');
+
+exports.showSignin=(req,res)=>{
+  res.render('signin.html');
 }

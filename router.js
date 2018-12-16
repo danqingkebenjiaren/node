@@ -1,5 +1,5 @@
 const express=require('express');
 const c_use=require('./controllers/c_user')
 const router=express.Router();
-router.get("/",c_use.showSigin)
+router.get("/signin",c_use.showSignin)
 module.exports=router;
